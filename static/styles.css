@@ -1,0 +1,61 @@
+  
+nav a {
+  
+    background-color: lightgreen;
+  
+    border-radius:2px;
+  
+    border:none;
+  
+    color: darkblue;
+  
+    cursor: pointer;
+  
+    display:block;
+  
+    font-size: 85%;
+  
+    margin-bottom: 1rem;
+  
+    padding: .5rem;
+  
+}
+  
+
+
+  
+input {
+  
+    display: block;
+  
+    font-size: 100%;
+  
+    margin: 1rem;
+  
+}
+  
+  
+  
+textarea {
+  
+    display: block;
+  
+    font-size: 100%;
+  
+    margin: 1rem;
+  
+}
+  
+  
+  
+  
+h1{
+    text-align: center;
+}
+
+.error{
+    color: red;
+    
+}
+  
+  

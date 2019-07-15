@@ -8,8 +8,9 @@
     <br>
 
     <form method='post'>
+      <div>
 
-        <label>Title for your new blog:
+        <label>Title for your new blog:<br>
      
             <input type="text" name='blog-title' value="{{blog_title}}">
 
@@ -17,7 +18,7 @@
 
         <p class="error">{{title_error}}</p>
 
-        <label>Your new blog:
+        <label>Your new blog:<br>
 
             <textarea name='blog-entry' >{{blog_body}}</textarea>
 
@@ -25,7 +26,8 @@
 
         <p class="error">{{body_error}}</p>
 
-        <input type="submit" value='Add Entry'>
+        <input class="button" type="submit" value='Add Entry'>
+      </div>
 
     </form>
 
